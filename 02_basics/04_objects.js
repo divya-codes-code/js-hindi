@@ -6,7 +6,7 @@ const tinderUser = {}
 tinderUser.name = "Divya"
 tinderUser.isLoggedIn = false
 
-//console.log(tinderUser)
+//console.log(tinderUser)  
 
 //obkect inside object
 
@@ -55,3 +55,37 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseInstructor: "hitesh"
+}
+
+//course.courseInstructor
+
+const{courseInstructor} = course
+
+console.log(courseInstructor);
+
+const{courseInstructor: Instructor} = course
+console.log(Instructor);
+
+//react
+//const navbar = ({company}) => {}
+
+//navbar(company = "hitesh")
+
+//{
+    //"name": "divya",
+    //"courseName": "Js in Hindi",
+   // "price": "free"
+//}
+
+[
+    {},
+    {},
+    {}
+]
