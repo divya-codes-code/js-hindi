@@ -1,5 +1,5 @@
 //variables 
-console.log("divya")
+/*console.log("divya")
 var myAge = 20
 console.log(myAge)
 
@@ -11,14 +11,14 @@ var myEmail = "dk@gmail.com";
 
 console.table([my_firstName, _myLastName$, myAge123, $cityName, myEmail]);
 
- //DATA TYPES- data type define the types of value that a variable can hold
-//Interview Questions – Data Types
+ DATA TYPES- data type define the types of value that a variable can hold
+Interview Questions – Data Types
 
-//1: What is the difference between null and undefined in JavaScript?
-//2: What is the purpose of typeof operator in JavaScript?
-//3: What is the result of 'typeof null' in JavaScript?
-//4: What are primitive data types in JavaScript?
-//5: Explain the concept of truthy and falsy values in JavaScript. Provide examples?
+1: What is the difference between null and undefined in JavaScript?
+2: What is the purpose of typeof operator in JavaScript?
+3: What is the result of 'typeof null' in JavaScript?
+4: What are primitive data types in JavaScript?
+5: Explain the concept of truthy and falsy values in JavaScript. Provide examples?
 
 var myString = "Hello, World!";
 var myNumber = 25;
@@ -54,15 +54,15 @@ let str1 = num1.toString();
 console.log(str1, typeof str1);
 
 
-// 6: conversion 
+ 6: conversion 
 
-//Number → String
+Number → String
 let num2 = 123;
 console.log(num2.toString()); //using .tostring
 console.log(String(num2));    // using string()
 console.log(num2 + "");  //using literals
 
-//String → Number
+String → Number
 let str = "456";
 console.log(Number(str));    // 
 console.log(parseInt(str));   // (for integers)
@@ -76,4 +76,26 @@ if (user) {
     console.log("User is logged in");
 } else {
     console.log("No user found");
-}
+}*/
+
+
+//Arthmetic operators
+
+// let a=90;
+// let b=5;
+// console.log(a+b);
+// console.log("a-b", a-b);
+// console.log("a*b = ", a*b);
+// console.log("a/b =", a/b);
+// console.log("a%b", a%b);
+// console.log("a**b", a**b);
+
+//unary operators
+
+let a=90;
+let b=5;
+console.log("a =" ,a, "& b = ", b);
+a++;
+console.log(a);
+b--;
+console.log(b);
